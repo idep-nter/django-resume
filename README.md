@@ -6,4 +6,4 @@ I made a Django project that would suit the template and what's most important I
 
 As a next step I tweaked a bit html and css file - color change, categories change, complete change of skills section etc.
 
-At last I deployed the project with AWS and also made a PostgeSQL database there as a default DB for the project.
+At last I deployed the project with AWS and also made a PostgreSQL database there as a default DB for the project.
