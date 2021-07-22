@@ -15,7 +15,7 @@ class Author(models.Model):
 
 class Experience(models.Model):
     title = models.CharField(max_length=100)
-    company = models.CharField(max_length=100)
+    company = models.CharField(blank=True, max_length=100)
     date_from = models.CharField(max_length=50)
     date_to = models.CharField(max_length=50)
     description = models.TextField(blank=True)

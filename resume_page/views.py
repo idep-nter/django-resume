@@ -9,8 +9,8 @@ from .models import Author, Experience, Education, Interests, Project, Course, \
 class IndexView(View):
     def get(self, request):
         author = Author.objects.get()
-        experience = Experience.objects.all().order_by('id').reverse()
-        education = Education.objects.all().order_by('id').reverse()
+        experience = Experience.objects.all().order_by('date_from').reverse()
+        education = Education.objects.all().order_by('date_from').reverse()
         interests = Interests.objects.get()
         projects = Project.objects.all()
         courses = Course.objects.all().order_by('id').reverse()
