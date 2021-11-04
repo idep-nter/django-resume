@@ -1,5 +1,3 @@
-http://djangoresume-env.eba-24wb8zda.us-east-2.elasticbeanstalk.com/
-
 As my first Django project I chose online resume. As I'm not really experienced in frontend stuff I searched for a bootstrap template and found right one at https://startbootstrap.com/.
 
 I made a Django project that would suit the template and what's most important I made several models so I could dynamically change data in django admin and so it woudn't be hardcoded in html file.
