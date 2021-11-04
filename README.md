@@ -5,3 +5,5 @@ I made a Django project that would suit the template and what's most important I
 As a next step I tweaked a bit html and css file - color change, change in categories, complete revamp of skills section etc.
 
 At last I deployed the project with AWS and also made a PostgreSQL database there as a default DB for the project.
+
+EDIT: AWS charged for $60 for using their DB service so I put in on hold for a while. :)
